@@ -1,0 +1,4 @@
+Django==2.0.5
+## !! Could not determine repository location
+django-model-path-converter==0.1.0
+pytz==2018.4
