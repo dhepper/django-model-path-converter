@@ -1,8 +1,6 @@
-SECRET_KEY = 'not_so_secret'
+SECRET_KEY = "not_so_secret"
 
-INSTALLED_APPS = [
-    'example.blog'
-]
+INSTALLED_APPS = ["example.blog"]
 
 DATABASES = {
     "default": {
