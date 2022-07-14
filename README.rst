@@ -41,11 +41,11 @@ Use the new converter in your path definitions::
 
 Your view ``my_view`` will now receive a ``MyModel`` instance as argument.
 
-``register_model_converter` accept for additional, optional arguments:
+``register_model_converter`` accepts four additional, optional arguments:
 
 * name (``str``) – name to register the converter as
 * field (``str``) – name of the lookup field
-* base – base path converter, either by name or as class (optional, defaults to ```django.urls.converter.IntConverter``)
+* base – base path converter, either by name or as class (optional, defaults to `django.urls.converter.IntConverter``)
 * queryset – a custom queryset to use (optional, defaults to ``model.objects.all()``)
 
 Credits
