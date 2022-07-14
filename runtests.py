@@ -12,6 +12,7 @@ def run_tests(*test_args):
     if not test_args:
         test_args = ['tests']
 
+    sys.path.append(".")
     os.environ['DJANGO_SETTINGS_MODULE'] = 'tests.settings'
     django.setup()
     TestRunner = get_runner(settings)
