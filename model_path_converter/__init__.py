@@ -45,7 +45,7 @@ def register_model_converter(
     :param str field: name of the lookup field
     :param base: base path converter, either by name or as class
                  (optional, defaults to `django.urls.converter.IntConverter`)
-    :param queryset: a custom querset to use (optional, defaults to
+    :param queryset: a custom queryset to use (optional, defaults to
                      `model.objects.all()`)
     """
     if name is None:

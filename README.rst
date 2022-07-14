@@ -13,7 +13,7 @@ Django Model Path Converter
         :target: https://model-path-converter.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-The Django Model Path Converter package dynamically creates custom path converters for you models.
+The Django Model Path Converter package dynamically creates custom path converters for your models.
 
 * Free software: MIT license
 * Documentation: https://django-model-path-converter.readthedocs.io.
@@ -41,6 +41,12 @@ Use the new converter in your path definitions::
 
 Your view `my_view` will now receive a `MyModel` instance as argument.
 
+`register_model_converter` accept for additional, optional arguments:
+
+* name (`str`) – name to register the converter as
+* field (`str`) – name of the lookup field
+* base – base path converter, either by name or as class (optional, defaults to `django.urls.converter.IntConverter`)
+* queryset – a custom queryset to use (optional, defaults to `model.objects.all()``)
 
 Credits
 -------
