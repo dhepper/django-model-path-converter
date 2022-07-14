@@ -6,8 +6,8 @@ Django Model Path Converter
 .. image:: https://img.shields.io/pypi/v/django-model-path-converter.svg
         :target: https://pypi.python.org/pypi/django-model-path-converter
 
-.. image:: https://img.shields.io/travis/dhepper/django-model-path-converter.svg
-        :target: https://travis-ci.org/dhepper/django-model-path-converter
+.. image:: https://github.com/dhepper/django-model-path-converter/actions/workflows/main.yml/badge.svg
+        :target: https://github.com/dhepper/django-model-path-converter/actions/workflows/main.yml
 
 .. image:: https://readthedocs.org/projects/model-path-converter/badge/?version=latest
         :target: https://model-path-converter.readthedocs.io/en/latest/?badge=latest
