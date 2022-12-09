@@ -3,7 +3,7 @@ asgiref==3.5.2
 Babel==2.10.3
 bleach==5.0.1
 bump2version==1.0.1
-certifi==2022.6.15
+certifi==2022.12.7
 charset-normalizer==2.1.0
 commonmark==0.9.1
 coverage==6.4.2
